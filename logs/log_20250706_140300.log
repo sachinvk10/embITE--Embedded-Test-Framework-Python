@@ -1,0 +1,56 @@
+2025-07-06 14:03:00 - INFO - SerialFramework - Test framework started.
+2025-07-06 14:03:00 - INFO - SerialFramework - Test mode from config: linux
+2025-07-06 14:03:00 - INFO - SerialFramework - Initializing connection handler for method: serial
+2025-07-06 14:03:00 - DEBUG - SerialFramework - Connecting to serial port /dev/ttyUSB0 with baudrate 115200
+2025-07-06 14:03:00 - INFO - SerialFramework - Serial connection established successfully.
+2025-07-06 14:03:00 - INFO - SerialFramework - Detecting active shell prompt...
+2025-07-06 14:03:00 - DEBUG - SerialFramework - Sending command: 
+2025-07-06 14:03:00 - DEBUG - SerialFramework - Reading response...
+2025-07-06 14:03:01 - DEBUG - SerialFramework - Command response: #
+2025-07-06 14:03:01 - INFO - SerialFramework - Detected LINUX shell with prompt: '#'
+2025-07-06 14:03:01 - INFO - SerialFramework - Detected shell type: linux
+2025-07-06 14:03:02 - INFO - SerialFramework - Running pytest with arguments: ['/home/nyxses/sachin/new/testcases/linux', '--html=reports/test_report_20250706_140302.html', '--self-contained-html', '-v']
+2025-07-06 14:03:02 - INFO - SerialFramework - Initializing connection handler for method: serial
+2025-07-06 14:03:02 - DEBUG - SerialFramework - Connecting to serial port /dev/ttyUSB0 with baudrate 115200
+2025-07-06 14:03:02 - INFO - SerialFramework - Serial connection established successfully.
+2025-07-06 14:03:02 - INFO - SerialFramework - Detecting active shell prompt...
+2025-07-06 14:03:02 - DEBUG - SerialFramework - Sending command: 
+2025-07-06 14:03:02 - DEBUG - SerialFramework - Reading response...
+2025-07-06 14:03:03 - DEBUG - SerialFramework - Command response: #
+2025-07-06 14:03:03 - INFO - SerialFramework - Detected LINUX shell with prompt: '#'
+2025-07-06 14:03:03 - DEBUG - SerialFramework - Sending command: ifconfig
+2025-07-06 14:03:03 - DEBUG - SerialFramework - Reading response...
+2025-07-06 14:03:05 - DEBUG - SerialFramework - Command response: ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+#
+2025-07-06 14:03:05 - INFO - SerialFramework - Closing connection
+2025-07-06 14:03:05 - INFO - SerialFramework - Initializing connection handler for method: serial
+2025-07-06 14:03:05 - DEBUG - SerialFramework - Connecting to serial port /dev/ttyUSB0 with baudrate 115200
+2025-07-06 14:03:05 - INFO - SerialFramework - Serial connection established successfully.
+2025-07-06 14:03:05 - INFO - SerialFramework - Detecting active shell prompt...
+2025-07-06 14:03:05 - DEBUG - SerialFramework - Sending command: 
+2025-07-06 14:03:05 - DEBUG - SerialFramework - Reading response...
+2025-07-06 14:03:06 - DEBUG - SerialFramework - Command response: #
+2025-07-06 14:03:06 - INFO - SerialFramework - Detected LINUX shell with prompt: '#'
+2025-07-06 14:03:06 - DEBUG - SerialFramework - Sending command: lsusb
+2025-07-06 14:03:06 - DEBUG - SerialFramework - Reading response...
+2025-07-06 14:03:08 - DEBUG - SerialFramework - Command response: lsusb
+Bus 003 Device 001: ID 1d6b:0002 Linux 6.1.44 ehci_hcd EHCI Host Controller
+Bus 001 Device 001: ID 1d6b:0002 Linux 6.1.44 dwc2_hsotg DWC OTG Controller
+Bus 001 Device 002: ID 05e3:0610 USB2.0 Hub
+Bus 002 Device 001: ID 1d6b:0002 Linux 6.1.44 dwc2_hsotg DWC OTG Controller
+Bus 001 Device 003: ID 0781:5567 SanDisk Cruzer Blade
+Bus 003 Device 002: ID 0bda:49f6 Generic USB Audio
+#
+2025-07-06 14:03:08 - INFO - SerialFramework - Closing connection
+2025-07-06 14:03:08 - INFO - SerialFramework - Test run complete. Report generated at: reports/test_report_20250706_140302.html
+2025-07-06 14:03:08 - INFO - SerialFramework - Latest log file found: logs/log_20250706_140300.log
+2025-07-06 14:03:16 - INFO - SerialFramework - Email with test report sent successfully (if configured).

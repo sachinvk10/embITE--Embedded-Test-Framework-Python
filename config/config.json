@@ -1,0 +1,32 @@
+{
+  
+  "connection": {
+  "_comment": "Please select one connection method, serial,ssh or telnet",
+
+    "method": "serial",
+
+    "port": "/dev/ttyUSB0",
+    "baudrate": 115200,
+    "timeout": 2,
+
+    "ssh_host": "192.168.1.100",
+    "ssh_port": 22,
+    "ssh_user": "user",
+    "ssh_password": "password",
+
+    "telnet_host": "192.168.1.101",
+    "telnet_port": 23,
+    "telnet_user": "user",
+    "telnet_password": "password"
+  },
+  "email": {
+    "smtp_server": "smtpout.secureserver.net",
+    "smtp_port": 587,
+    "sender_email": "sender@xyz.com",
+    "receiver_email": ["receiver_1@xyz.com","receiver_2@xyz.com"],
+    "email_password": "1234",
+    "subject": "Embedded Validation - Framework Test Report"
+  },
+  "test_prompt_mode": "linux"
+}
+
