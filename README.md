@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-Serial Communication Testing Framework
-======================================
+# embITE--Embedded-Test-Framework-Python
+========================================
+
+This is a lightweight automation framework designed for validating embedded SoC features (BIOS and OS) such as  UART, GPIO, and I2C . Developed using Python, it supports modular test creation, logging, and HTML reporting.
 
 Overview
 --------
@@ -146,7 +147,4 @@ Troubleshooting
 - Shell detection issues: Adjust regex in connection_handler.py for your board prompts.
 
 
-=======
-# embITE--Embedded-Test-Framework-Python
-This is a lightweight automation framework designed for validating embedded SoC features (BIOS and OS) such as  UART, GPIO, and I2C . Developed using Python, it supports modular test creation, logging, and HTML reporting.
 >>>>>>> 5c9f509c489317b9cb721856a56d27a94bf5028c
