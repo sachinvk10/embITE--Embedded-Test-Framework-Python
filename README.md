@@ -133,18 +133,4 @@ Email Reports
 - After test run, HTML report and logs are emailed.
 - Email settings configured in config.json.
 
-Extending Framework
--------------------
-- Add new connection types by extending board_action/connection_handler.py
-- Add new tests as pytest files in appropriate test folders
-- Customize prompt detection logic in connection_handler.py
-
-Troubleshooting
----------------
-- ModuleNotFoundError: Ensure PYTHONPATH includes project root or run from root directory.
-- JSONDecodeError: Validate config.json syntax (commas, brackets).
-- Connection errors: Check connectivity and credentials in config.json.
-- Shell detection issues: Adjust regex in connection_handler.py for your board prompts.
-
-
 >>>>>>> 5c9f509c489317b9cb721856a56d27a94bf5028c
